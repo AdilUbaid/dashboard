@@ -12,7 +12,7 @@ class CustomCard extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(8)),
-          color: color ?? backgroundColor),
+          color: color ?? cardBackgroundColor),
       child: Padding(
         padding: padding ?? const EdgeInsets.all(12),
         child: child,
